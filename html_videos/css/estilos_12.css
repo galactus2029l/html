@@ -124,7 +124,7 @@
 			}
 
 	.section{
-		background: var(--1-color);
+		background: #f7f7f7;
 		display: flex;
 	}
 
@@ -148,6 +148,7 @@
 				.articles img{
 					width: 100%;
 				}
+
 				.articles h3{
 					color: #fff;
 					font-size: 13px;
@@ -161,6 +162,19 @@
 					padding: 0px 0 10px 0; 
 					color: #fff;
 					margin-left: 15px;
+				}
+
+				.articles a {
+				  color: #fff;
+				  font-size: 13px;
+				  padding: 10px;
+				  background: #000;
+				  margin: 10px 0;
+				  display: inline-block;
+				}
+
+				.articles a:hover {
+				  background: #546cc3;
 				}
 
 			.navegacion {
