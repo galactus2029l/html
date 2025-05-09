@@ -1,0 +1,11 @@
+.caja{
+	background-color: aquamarine;
+	width: 80%;
+
+    /*Esto no se que hace aun*/
+	margin: 0 auto;
+
+	height: 400px;
+	border: 8px solid black;
+	border-radius: 5%;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "keys": ["ctrl+r"],
+    "command": "browser_refresh",
+    "args": {
+      "auto_save": true,
+      "delay": 0.0,
+      "activate": true,
+      "browsers": ["firefox"]
+    }
+  }
+]
+
+
+import subprocess
+subprocess.Popen(['W:\\Programas\\Godzilla\\Mozilla Firefox\\firefox.exe'])
+
+

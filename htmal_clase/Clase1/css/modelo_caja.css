@@ -1,0 +1,43 @@
+:root{
+	--primary-color: #3498db;
+	--secondary-color: #2ECC71;
+	--font-size: 16px;
+	--margin: 20px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: var(--secondary-color);
+	background-image: url(../img/face2.jpg);
+
+}
+
+.box{
+	width: 80%;
+	height: 100px;
+	margin: 0 auto;
+
+
+    /*degradadado*/
+	background-image:linear-gradient(to right, #1f0469, #aa9db4);
+/*	background-color: var(--primary-color);*/
+	border: 2px solid black;
+
+}
+
+.caja1,.caja2,.caja3{
+	margin: var(--margin) auto var(--margin);
+	padding: 30px;
+	text-align: center;
+
+}
+
+p{
+	background-color: blue;
+	color: orange;
+}

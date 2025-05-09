@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    /*Todo lo que tenga star es porque lo situa como esta*/
+    width: 80%;
+    height: 500px;
+    background: #FF5C29;
+    margin: 50px auto;
+    display: flex;
+    /*flex-direction: row; esto situa el texto al lado izquierdo de manera invertida */
+    /*flex-direction: row-reverse; esto situa el texto al lado derecho */
+    /*flex-direction: column me muestra los ellementos en columna;*/
+    flex-direction: row;
+    flex-wrap: wrap; /* Acomoda todo en cascada cuando pasa los limites*/
+    /*justify-content: flex-end; esto situa el texto al lado izquierdo sin invertir*/
+    /*justify-content: flex-center; esto situa el texto en el centro*/
+    /*justify-content: space-between; distribulle todo a los lados y centro*/
+    justify-content: space-around; /* situa todo con espacios distribuidos por texto */
+    /*align-items: center;*/ /*Situa todo en el centro por colutna*/
+    /*align-items: stretch; Todo el contenido ocupa el alto*/
+    /*align-items: baseline; permite que todos los contenedores esten aliniados con las letras*/
+    /*align-items: center;*/
+    /*align-content: ;El siguinete contenido abajo se centra*/
+    /*align-content: flex-end flex-start; los situan arriba o abajo*/ 
+
+
+
+}
+.hijo {
+    background: #00B285;
+    width: 200px;
+    height: 100px;
+    color: #fff;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    /*flex-grow: 1; Busca que todo ocupe el 100% de mi contenedor*/
+    /*flex-shrink: 0; hace que se respete el ancho*/
+    flex: 1 1 auto;
+
+
+}
+
+.otro {
+    /*order: 1 ordena las colutnas*/ 
+    /*align-self: self-end; me situa el contenedor abajo*/
+    /*align-self: self-center; me situa el contenedor en el centro*/
+    /*align-self: self-center; me situa el contenedor en el centro*/
+    align-self: self-center;
+    height: auto; /*ocupa todo el height*/
+}

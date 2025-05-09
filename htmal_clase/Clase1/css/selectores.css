@@ -1,0 +1,57 @@
+/*selector universal*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*selectores de etiqueta*/
+
+h1{
+	color: blueviolet;
+	font-size: 25px;
+}
+/*selector de clase*/
+
+.caja{
+	background-color: aqua;
+	width:  100px;
+	height: 100px;
+}
+
+#caja1{
+	background-color: darkred;
+	width: 100px;
+	height: 100px;
+}
+
+
+.hijos-diretos p{
+	color: purple;
+}
+
+
+
+.espacio{
+	background-color: rgba(250, 250, 250, 1);
+	width: 100px;
+	height: 50px;
+}
+
+.hijos-desendientes > p{
+	color: purple;
+}
+
+.selector_atributos a[href] {
+	color: navy;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+p, h1{
+	color: salmon;
+}
+

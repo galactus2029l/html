@@ -1,0 +1,16 @@
+button{
+	background: salmon;
+	color: burlywood;
+	width: 10%;
+	height: 25px;
+}
+
+button:hover{
+	background: blue;
+	color: black;
+}
+
+button:active{
+	background: red;
+	color: burlywood;
+}

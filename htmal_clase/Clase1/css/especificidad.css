@@ -1,0 +1,11 @@
+#header p {
+	color: blue;
+}
+
+.main p {
+	color: green;
+}
+
+p {
+	color: red;
+}
