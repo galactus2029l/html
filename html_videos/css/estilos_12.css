@@ -30,6 +30,9 @@
 	flex-flow: column nowrap;
 }
 
+a{
+	text-decoration: none;
+}
 .margin_interno{
 	padding: 0 50px;
 }
@@ -178,21 +181,39 @@
 				}
 
 			.navegacion {
-				background: var(--8-color);
+				background: #000;
 				flex: 1 1 100%;
 			}
 
+			.navegacion a {
+			  color: #fff;
+			  font-size: 11px;
+			  text-transform: uppercase;
+			  padding: 0 10px;
+			  letter-spacing: 2px;
+			}
+
+
 		.aside {
-			background: var(--9-color);
+			/*background: var(--9-color);*/
 			flex: 1 1 auto;
+			margin: 10px 5px 10px 0;
 		}
 
 			.aside img{
 				width: 100%;
 			}
 
+			.aside h4 {
+			  background: #000;
+			  color: #fff;
+			  padding: 10px;
+			  text-transform: uppercase;
+			}
+
+
 			.publicidad{
-				background: var(--11color);
+				/*background: var(--11color);*/
 			}
 
 
