@@ -183,6 +183,7 @@ a{
 			.navegacion {
 				background: #000;
 				flex: 1 1 100%;
+				margin: 10px 10px 0 0px;
 			}
 
 			.navegacion a {
@@ -221,11 +222,22 @@ a{
 			background: var(--1-color);	
 			display: flex;
 			justify-content: center;
+			margin-top:10px	
 		}
 			.pie{
-				background: var(--10color);
-				width: 300px;
+				/*background: var(--10color);*/
+				text-align:center;
+		
 			}
+
+			.pie a {
+			  color: #fff;
+			  font-size: 11px;
+			  text-transform: uppercase;
+			  padding: 0 10px;
+			  letter-spacing: 2px;
+			}
+
 
 /*responsivo*/
 @media all and (max-width: 800px) {
